@@ -1,0 +1,9 @@
+2025-07-13 11:12:15,889 - INFO - Making the vectorstore....
+2025-07-13 11:12:15,889 - INFO - Loading Files from data/
+2025-07-13 11:12:15,890 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 11:12:15,890 - ERROR - Failed to Load the PDF | Error: unstructured package not found, please install it with `pip install unstructured` | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 11:12:15,890 - INFO - Generating your new vectorstore
+2025-07-13 11:12:15,890 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:12:15,891 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
+2025-07-13 11:12:15,891 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 42
+2025-07-13 11:12:15,891 - INFO - Vectorstore created sucesfully....

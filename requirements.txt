@@ -1,8 +1,8 @@
 langchain
-langchain_community
-langchain_huggingface
+langchain-community
+langchain-huggingface
 pypdf
 faiss-cpu
-huggingface_hub
+huggingface-hub
 flask
 python-dotenv

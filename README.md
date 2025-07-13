@@ -2,7 +2,7 @@
 
 ## 🔍 About this Project
 - User will give the Query and the RAG Based Chatbot  with give the reply from already given PDF file
-- user can ask the questions and here the FAISS DB is used and Stored Locally
+- User can ask the questions and here the FAISS DB is used and Stored Locally
 - Used the Groq LLM and HuggingFace Embeddings
 
 

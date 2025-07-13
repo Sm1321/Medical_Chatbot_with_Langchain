@@ -1,4 +1,7 @@
 # Medical Chatbot with RAG
+- User will give the Query and the RAG Based Chatbot  with give the reply from already given PDF file
+- user can ask the questions and here the FAISS DB is used and Stored Locally
+  
 
 ## 🔍 About this Project
 - Used the Groq LLM and HuggingFace Embeddings
@@ -20,8 +23,9 @@
 
 ## 📂About the Folders
 - in `app Folder` we are having all the Folders in it.
-- `Common` :- Having the Main logic of the Project
-- `components` :- About the Front End Code
+- `Common` :- Having the logger and custom_exception
+- `components` :- Its having the Vectorstores and embeddings 
 - `templates` :- About the HTML/CSS
+- `application.py`:-  flask  app and routes
 - `main.py` :- File we run the Code to Excute the Streamlit APP
 - `config` :- Groq Models 

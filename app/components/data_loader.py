@@ -10,7 +10,7 @@ logger = get_logger(__name__)
 
 def process_and_store_pdfs():
     try:
-        logger.info("Making the vectorstore....")
+        logger.info("MAking the vectorstore....")
         
         documents = load_pdf_files()
 
@@ -21,7 +21,7 @@ def process_and_store_pdfs():
         logger.info("Vectorstore created sucesfully....")
 
     except Exception as e:
-        error_message = CustomException("Failed to create vectorstore",e)
+        error_message = CustomException("Faialedd to create vectorstore",e)
         logger.error(str(error_message))
 
 

@@ -13,7 +13,8 @@
 ## 🛠️ Setup Instructions and Installition
 - `pip install -e .` : To Install the setup.py
 - `pip install -r requirements.txt` : Install the requiremenst.txt files
-- run `python app/main.py` : TO Execute the Streamlit APP UI
+- run `python app/components/data_loader.py` : TO Create the VectorStore
+- 
 
 
 

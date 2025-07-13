@@ -7,3 +7,165 @@
 2025-07-13 11:12:15,891 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
 2025-07-13 11:12:15,891 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 42
 2025-07-13 11:12:15,891 - INFO - Vectorstore created sucesfully....
+2025-07-13 11:44:17,301 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.124:5000
+2025-07-13 11:44:17,308 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 11:45:05,876 - INFO - 127.0.0.1 - - [13/Jul/2025 11:45:05] "GET / HTTP/1.1" 200 -
+2025-07-13 11:45:07,633 - INFO - 127.0.0.1 - - [13/Jul/2025 11:45:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-13 11:45:10,594 - INFO - Loading vector store for context
+2025-07-13 11:45:10,594 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:45:10,596 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
+2025-07-13 11:45:10,596 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 14
+2025-07-13 11:45:10,596 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\retriever.py | Line: 32
+2025-07-13 11:45:10,596 - INFO - 127.0.0.1 - - [13/Jul/2025 11:45:10] "POST / HTTP/1.1" 200 -
+2025-07-13 11:45:31,142 - INFO - Loading vector store for context
+2025-07-13 11:45:31,142 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:45:31,144 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
+2025-07-13 11:45:31,144 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 14
+2025-07-13 11:45:31,144 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\retriever.py | Line: 32
+2025-07-13 11:45:31,146 - INFO - 127.0.0.1 - - [13/Jul/2025 11:45:31] "POST / HTTP/1.1" 200 -
+2025-07-13 11:45:54,433 - INFO - Loading vector store for context
+2025-07-13 11:45:54,433 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:45:54,434 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
+2025-07-13 11:45:54,434 - ERROR - Failed to load vectorstore | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 14
+2025-07-13 11:45:54,434 - ERROR - Failed to make a QA chain | Error: Vector store not present or empty | Error: None | File: Unknown File | Line: Unknown Line | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\retriever.py | Line: 32
+2025-07-13 11:45:54,435 - INFO - 127.0.0.1 - - [13/Jul/2025 11:45:54] "POST / HTTP/1.1" 200 -
+2025-07-13 11:48:16,346 - INFO - Making the vectorstore....
+2025-07-13 11:48:16,346 - INFO - Loading Files from data/
+2025-07-13 11:48:16,346 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 11:48:16,346 - ERROR - Failed to Load the PDF | Error: unstructured package not found, please install it with `pip install unstructured` | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 11:48:16,346 - INFO - Generating your new vectorstore
+2025-07-13 11:48:16,346 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:48:16,346 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12
+2025-07-13 11:48:16,346 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\embeddings.py | Line: 12 | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 38
+2025-07-13 11:48:16,346 - INFO - Vectorstore created sucesfully....
+2025-07-13 11:55:44,619 - INFO - MAking the vectorstore....
+2025-07-13 11:55:44,619 - INFO - Loading Files from data/
+2025-07-13 11:55:44,630 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 11:55:44,630 - ERROR - Failed to Load the PDF | Error: unstructured package not found, please install it with `pip install unstructured` | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 11:55:44,630 - INFO - Generating your new vectorstore
+2025-07-13 11:55:44,630 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:56:04,334 - INFO - Use pytorch device_name: cpu
+2025-07-13 11:56:04,334 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 11:56:13,317 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 11:56:13,317 - ERROR - Failed to craete new vectorstore  | Error: 'CustomException' object is not iterable | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 11:56:13,317 - INFO - Vectorstore created sucesfully....
+2025-07-13 11:57:17,900 - INFO - MAking the vectorstore....
+2025-07-13 11:57:17,900 - INFO - Loading Files from data/
+2025-07-13 11:57:17,900 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 11:57:17,900 - ERROR - Failed to Load the PDF | Error: unstructured package not found, please install it with `pip install unstructured` | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 11:57:17,900 - INFO - Generating your new vectorstore
+2025-07-13 11:57:17,900 - INFO - Intializing our Huggingface embedding model
+2025-07-13 11:57:28,536 - INFO - Use pytorch device_name: cpu
+2025-07-13 11:57:28,536 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 11:57:33,530 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 11:57:33,530 - ERROR - Failed to craete new vectorstore  | Error: 'CustomException' object is not iterable | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 11:57:33,530 - INFO - Vectorstore created sucesfully....
+2025-07-13 11:59:59,200 - INFO - MAking the vectorstore....
+2025-07-13 11:59:59,200 - INFO - Loading Files from data/
+2025-07-13 11:59:59,203 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 11:59:59,203 - ERROR - Failed to Load the PDF | Error: unstructured package not found, please install it with `pip install unstructured` | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 11:59:59,203 - INFO - Generating your new vectorstore
+2025-07-13 11:59:59,203 - INFO - Intializing our Huggingface embedding model
+2025-07-13 12:00:06,688 - INFO - Use pytorch device_name: cpu
+2025-07-13 12:00:06,688 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 12:00:17,069 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 12:00:17,082 - ERROR - Failed to craete new vectorstore  | Error: 'CustomException' object is not iterable | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 12:00:17,082 - INFO - Vectorstore created sucesfully....
+2025-07-13 12:02:55,828 - INFO - MAking the vectorstore....
+2025-07-13 12:02:55,828 - INFO - Loading Files from data/
+2025-07-13 12:02:55,828 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 12:02:55,828 - ERROR - Failed to Load the PDF | Error: ImportError('unstructured package not found, please install it with `pip install unstructured`') | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 12:02:55,828 - INFO - Generating your new vectorstore
+2025-07-13 12:02:55,828 - INFO - Intializing our Huggingface embedding model
+2025-07-13 12:03:02,439 - INFO - Use pytorch device_name: cpu
+2025-07-13 12:03:02,439 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 12:03:10,412 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 12:03:10,414 - ERROR - Failed to craete new vectorstore  | Error: TypeError("'CustomException' object is not iterable") | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 12:03:10,414 - INFO - Vectorstore created sucesfully....
+2025-07-13 12:04:35,292 - INFO - MAking the vectorstore....
+2025-07-13 12:04:35,292 - INFO - Loading Files from data/
+2025-07-13 12:04:37,370 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 12:04:37,370 - ERROR - Failed to Load the PDF | Error: ImportError('partition_pdf() is not available because one or more dependencies are not installed. Use: pip install "unstructured[pdf]" (including quotes) to install the required dependencies') | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 12:04:37,370 - INFO - Generating your new vectorstore
+2025-07-13 12:04:37,370 - INFO - Intializing our Huggingface embedding model
+2025-07-13 12:04:43,326 - INFO - Use pytorch device_name: cpu
+2025-07-13 12:04:43,326 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 12:04:48,484 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 12:04:48,484 - ERROR - Failed to craete new vectorstore  | Error: TypeError("'CustomException' object is not iterable") | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 12:04:48,484 - INFO - Vectorstore created sucesfully....
+2025-07-13 12:07:19,518 - INFO - MAking the vectorstore....
+2025-07-13 12:07:19,518 - INFO - Loading Files from data/
+2025-07-13 12:07:20,777 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 12:07:20,777 - ERROR - Failed to Load the PDF | Error: ImportError('partition_pdf() is not available because one or more dependencies are not installed. Use: pip install "unstructured[pdf]" (including quotes) to install the required dependencies') | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 12:07:20,777 - INFO - Generating your new vectorstore
+2025-07-13 12:07:20,780 - INFO - Intializing our Huggingface embedding model
+2025-07-13 12:07:27,627 - INFO - Use pytorch device_name: cpu
+2025-07-13 12:07:27,627 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 12:07:33,031 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 12:07:33,040 - ERROR - Failed to create new vectorstore | Error: TypeError("'CustomException' object is not iterable") | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 12:07:33,040 - INFO - Vectorstore created sucesfully....
+2025-07-13 12:16:03,909 - INFO - MAking the vectorstore....
+2025-07-13 12:16:03,917 - INFO - Loading Files from data/
+2025-07-13 12:16:23,156 - INFO - pikepdf C++ to Python logger bridge initialized
+2025-07-13 12:16:26,151 - WARNING - Cannot set gray non-stroke color because /'R326' is an invalid float value
+2025-07-13 12:16:26,283 - WARNING - Cannot set gray non-stroke color because /'R331' is an invalid float value
+2025-07-13 12:16:26,290 - WARNING - Cannot set gray non-stroke color because /'R336' is an invalid float value
+2025-07-13 12:16:26,290 - WARNING - Cannot set gray non-stroke color because /'R338' is an invalid float value
+2025-07-13 12:16:26,290 - WARNING - Cannot set gray non-stroke color because /'R342' is an invalid float value
+2025-07-13 12:16:26,290 - WARNING - Cannot set gray non-stroke color because /'R346' is an invalid float value
+2025-07-13 12:16:26,299 - WARNING - Cannot set gray non-stroke color because /'R350' is an invalid float value
+2025-07-13 12:16:26,308 - WARNING - Cannot set gray non-stroke color because /'R354' is an invalid float value
+2025-07-13 12:16:26,308 - WARNING - Cannot set gray non-stroke color because /'R356' is an invalid float value
+2025-07-13 12:16:26,308 - WARNING - Cannot set gray non-stroke color because /'R358' is an invalid float value
+2025-07-13 12:16:26,308 - WARNING - Cannot set gray non-stroke color because /'R362' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R364' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R366' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R368' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R370' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R372' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R374' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R378' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R383' is an invalid float value
+2025-07-13 12:16:26,315 - WARNING - Cannot set gray non-stroke color because /'R385' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R390' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R392' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R394' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R398' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R403' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R407' is an invalid float value
+2025-07-13 12:16:26,323 - WARNING - Cannot set gray non-stroke color because /'R413' is an invalid float value
+2025-07-13 12:16:26,331 - WARNING - Cannot set gray non-stroke color because /'R418' is an invalid float value
+2025-07-13 12:16:26,331 - WARNING - Cannot set gray non-stroke color because /'R423' is an invalid float value
+2025-07-13 12:16:26,331 - WARNING - Cannot set gray non-stroke color because /'R425' is an invalid float value
+2025-07-13 12:16:26,331 - WARNING - Cannot set gray non-stroke color because /'R430' is an invalid float value
+2025-07-13 12:16:26,338 - WARNING - Cannot set gray non-stroke color because /'R433' is an invalid float value
+2025-07-13 12:16:26,338 - WARNING - Cannot set gray non-stroke color because /'R435' is an invalid float value
+2025-07-13 12:16:26,340 - WARNING - Cannot set gray non-stroke color because /'R437' is an invalid float value
+2025-07-13 12:16:26,340 - WARNING - Cannot set gray non-stroke color because /'R441' is an invalid float value
+2025-07-13 12:16:26,340 - WARNING - Cannot set gray non-stroke color because /'R443' is an invalid float value
+2025-07-13 12:16:26,340 - WARNING - Cannot set gray non-stroke color because /'R447' is an invalid float value
+2025-07-13 12:16:26,340 - WARNING - Cannot set gray non-stroke color because /'R449' is an invalid float value
+2025-07-13 12:16:26,348 - WARNING - Cannot set gray non-stroke color because /'R451' is an invalid float value
+2025-07-13 12:16:26,348 - WARNING - Cannot set gray non-stroke color because /'R453' is an invalid float value
+2025-07-13 12:16:26,348 - WARNING - Cannot set gray non-stroke color because /'R457' is an invalid float value
+2025-07-13 12:16:26,352 - WARNING - Cannot set gray non-stroke color because /'R462' is an invalid float value
+2025-07-13 12:16:26,352 - WARNING - Cannot set gray non-stroke color because /'R464' is an invalid float value
+2025-07-13 12:16:26,357 - WARNING - Cannot set gray non-stroke color because /'R466' is an invalid float value
+2025-07-13 12:16:26,358 - WARNING - Cannot set gray non-stroke color because /'R468' is an invalid float value
+2025-07-13 12:16:26,359 - WARNING - Cannot set gray non-stroke color because /'R470' is an invalid float value
+2025-07-13 12:16:26,689 - WARNING - Cannot set gray non-stroke color because /'R516' is an invalid float value
+2025-07-13 12:16:26,697 - WARNING - Cannot set gray non-stroke color because /'R520' is an invalid float value
+2025-07-13 12:16:26,697 - WARNING - Cannot set gray non-stroke color because /'R524' is an invalid float value
+2025-07-13 12:16:26,702 - INFO - PDF text extraction failed, skip text extraction...
+2025-07-13 12:16:26,706 - ERROR - Error loading file data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND (1).pdf
+2025-07-13 12:16:26,706 - ERROR - Failed to Load the PDF | Error: PDFInfoNotInstalledError('Unable to get page count. Is poppler installed and in PATH?') | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\pdf_loader.py | Line: 22
+2025-07-13 12:16:26,706 - INFO - Generating your new vectorstore
+2025-07-13 12:16:26,706 - INFO - Intializing our Huggingface embedding model
+2025-07-13 12:16:30,646 - INFO - Use pytorch device_name: cpu
+2025-07-13 12:16:30,650 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-13 12:16:35,566 - INFO - Huggingface embedding model loaded sucesfully....
+2025-07-13 12:16:35,566 - ERROR - Failed to create new vectorstore | Error: TypeError("'CustomException' object is not iterable") | File: c:\my_folder\git_projects_\medical_chatbot_with_langchain\app\components\vector_store.py | Line: 40
+2025-07-13 12:16:35,566 - INFO - Vectorstore created sucesfully....

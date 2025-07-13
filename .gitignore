@@ -1,4 +1,4 @@
 .env
-env
+env/
 RAG_Medcal_Chatbot.egg-info/
 

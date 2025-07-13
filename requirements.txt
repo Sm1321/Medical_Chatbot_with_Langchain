@@ -6,3 +6,9 @@ faiss-cpu
 huggingface-hub
 flask
 python-dotenv
+sentence-transformers
+langchain-groq
+unstructured
+langchain_huggingface
+unstructured[pdf]
+

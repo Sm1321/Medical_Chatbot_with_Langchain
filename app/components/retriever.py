@@ -6,7 +6,7 @@ from app.components.vector_store import load_vector_store
 
 from app.config.config import HUGGINGFACE_REPO_ID,HF_TOKEN
 from app.common.logger import get_logger
-from app.common.custom_exception import CustomException
+from app.common.custom_exception import CustomException 
 
 
 logger = get_logger(__name__)
